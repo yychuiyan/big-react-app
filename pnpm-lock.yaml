@@ -91,7 +91,7 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       rollup:
-        specifier: ^3.1.0
+        specifier: ^3.29.5
         version: 3.29.5
       rollup-plugin-generate-package-json:
         specifier: ^3.2.0
