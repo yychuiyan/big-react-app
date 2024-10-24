@@ -1,5 +1,5 @@
 // 递归中的归
 export const completeWork = () => {
-	const a = 124;
+	const a = 1234;
 	console.log(a);
 };
