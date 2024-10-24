@@ -91,7 +91,7 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       rollup:
-        specifier: ^3.29.5
+        specifier: ^3.1.0
         version: 3.29.5
       rollup-plugin-generate-package-json:
         specifier: ^3.2.0
@@ -105,6 +105,20 @@ importers:
       vite:
         specifier: ^3.2.3
         version: 3.2.11(@types/node@20.5.1)
+
+  packages/react:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
+  packages/react-reconciler:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
+  packages/shared: {}
 
 packages:
 
